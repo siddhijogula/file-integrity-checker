@@ -22,7 +22,7 @@ A cryptographic hash is a fixed-length fingerprint of a file's contents. Changin
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/file-integrity-checker.git
+git clone https://github.com/siddhijogula/file-integrity-checker.git
 cd file-integrity-checker
 # No third-party dependencies — standard library only.
 python3 --version   # 3.8+
