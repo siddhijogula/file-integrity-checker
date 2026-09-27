@@ -1,0 +1,2 @@
+# File Integrity Checker uses only the Python standard library.
+# No third-party dependencies required (Python 3.8+).
