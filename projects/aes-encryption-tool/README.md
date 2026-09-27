@@ -1,6 +1,6 @@
 # Advanced Encryption Tool (AES-256-GCM)
 
-A command-line tool that encrypts and decrypts files using **authenticated AES-256 encryption**, with the key derived from a password. Tamper-evident by design: a file that has been modified — even by a single byte — will refuse to decrypt rather than returning corrupt data.
+A command-line tool that encrypts and decrypts files using **authenticated AES-256 encryption**, with the key derived from a password. Tamper-evident by design: a file that has been modified even by a single byte will refuse to decrypt rather than returning corrupt data.
 
 > Built as Task 4 of the Elite Tech Intern cybersecurity internship, implemented with correct, modern cryptographic practice.
 
@@ -32,7 +32,7 @@ The salt and nonce are stored alongside the ciphertext (they're not secret — o
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/aes-encryption-tool.git
+git clone https://github.com/siddhijogula/aes-encryption-tool.git
 cd aes-encryption-tool
 pip install -r requirements.txt
 ```
